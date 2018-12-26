@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  n_perusahaan: MyString
+  alamat: MyString
+  jumlah: 1
+  n_travel: MyString
+
+two:
+  n_perusahaan: MyString
+  alamat: MyString
+  jumlah: 1
+  n_travel: MyString
