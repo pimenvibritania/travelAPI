@@ -1,9 +1,18 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
-Travel.create([{  n_perusahaan: "PT. CIPAGANTI CITRA NUGRAHA" , alamat: "Jl. Gatot Subroto, Bandung", jumlah: 262 , n_travel: "Cipaganti" }])
+Travel.create([{ n_perusahaan: "PT. CIPAGANTI CITRA NUGRAHA" , alamat:" Jl. Gatot Subroto, Bandung",                    jumlah: 262 ,  n_travel: "Cipaganti" }])
+Travel.create([{ n_perusahaan: "PT. BATARA TITIAN KENCANA",    alamat:" Jl. Cihampelas Bandung",                        jumlah: 110,   n_travel: "X Trans"}])
+Travel.create([{ n_perusahaan: "PT. NURRACHMADI BERSAMA",      alamat:" jl. Surapati",                                  jumlah: 60,    n_travel: "Baraya"}])
+Travel.create([{ n_perusahaan: "PT. VETIGA NADI",              alamat:" jl. Gatot Subroto, Bandung",                    jumlah: 68,    n_travel: "V 3 Trans"}])
+Travel.create([{ n_perusahaan: "PT. METROMODA TRAVELATAMA",    alamat:" Jl. Pasir Kaliki No. 15",                       jumlah: 9,     n_travel: "Travelatama"}])
+Travel.create([{ n_perusahaan: "PT. PURABAYA PANCASAKTI",      alamat:" Jl. Babakan Sari II No. 10 Kota. Bandung",      jumlah: 26,    n_travel: "Panca"}])
+Travel.create([{ n_perusahaan: "PT. TRANSLINE",                alamat:" Jl. Surya Sumantri No. 86 Kota. Bandung",       jumlah: 16,    n_travel: "Transline"}])
+Travel.create([{ n_perusahaan: "PT. HERI SURYA PUTRA",         alamat:" jl. Cihampelas",                                jumlah: 10,    n_travel: "Transpoter"}])
+Travel.create([{ n_perusahaan: "CV. CITRA TIARA TRANSPORT",    alamat:" Jl. Dipati Ukur No. 53",                        jumlah: 75,    n_travel: "City Trans"}])
+Travel.create([{ n_perusahaan: "CV. PANCA JAYA UTAMA",         alamat:" Komplek Banyubiru Blok C  Kota. Bandung",       jumlah: 10,    n_travel: "Panca"}])
+Travel.create([{ n_perusahaan: "PT. LINTAS MEDIA KARYA",       alamat:" Jl. Otto Iskandardinata No. 17 Kota. Bandung",  jumlah: 10,    n_travel: "LINKAR"}])
+Travel.create([{ n_perusahaan: "PT. DAY TRANS",                alamat:" jl. Cihampelas",                                jumlah: 70,    n_travel: "Day Trans"}])
+Travel.create([{ n_perusahaan: "PT. STAR LINE",                alamat:" Ruko MTC Blok. I No. 5 Margahayu Raya",         jumlah: 14,    n_travel: "Star Line"}])
+Travel.create([{ n_perusahaan: "PT. DISA PRATAMA MANDIRI",     alamat:" Jl. Soekarno Hatta No. 62 / 172 Kota Bandung",  jumlah: 10,    n_travel: "Primajasa"}])
+Travel.create([{ n_perusahaan: "PT. TELE TRANS",               alamat:" Jl. Surapati, Dapenpos",                        jumlah: 5,     n_travel: "Tele Trans"}])
+Travel.create([{ n_perusahaan: "PT. SARANA MARGABAKTI UTAMA",  alamat:" Jl. Buahbatu",                                  jumlah: 5,     n_travel: "Transtol"}])
+Travel.create([{ n_perusahaan: "CV. SAFA",                     alamat:" jl. Sethia Budi",                               jumlah: 14,    n_travel: "Safa Trans"}])
+Travel.create([{ n_perusahaan: "CV. 4848",                     alamat:" Jl. Kebon Kawung",                              jumlah: 5,     n_travel: "4848"}])
