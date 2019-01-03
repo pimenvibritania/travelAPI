@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2018_12_26_185303) do
     t.integer "jumlah"
     t.string "n_travel"
     t.string "n_img"
+    t.string "deskripsi"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
