@@ -5,6 +5,7 @@ class CreateTravels < ActiveRecord::Migration[5.2]
       t.string :alamat
       t.integer :jumlah
       t.string :n_travel
+      t.string :n_img
 
       t.timestamps
     end
